@@ -1,0 +1,9 @@
+.DS_Store
+.idea/
+.rubocop.yml
+.ruby-gemset
+.ruby-version
+cat.rb
+Gemfile
+Gemfile.lock
+Guardfile
