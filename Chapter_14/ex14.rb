@@ -6,11 +6,11 @@
 first_name, last_name = ARGV
 prompt = '> '
 
-puts "Hi #{first_name}, I'm the #{$0} script."
+puts "Hi #{first_name}, I'm the #{$PROGRAM_NAME} script."
 puts "I'd like to ask you a few questions."
 puts "Do you like me #{first_name}?"
 print prompt
-likes = STDIN.gets.chomp # when ARGV has some value, you must ust STDIN.gets, or else gets (alone) will look for a file
+likes = STDIN.gets.chomp # when ARGV has some value, you must use STDIN.gets, not just gets
 
 puts "Where do you live #{first_name}"
 print prompt
