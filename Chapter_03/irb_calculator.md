@@ -1,3 +1,4 @@
+#!/usr/bin/env ruby
 # Experiments in irb
 ### free calculator!
 

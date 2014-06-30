@@ -1,3 +1,4 @@
+#!/usr/bin/env ruby
 puts 'I will now count my chickens:'
 # counts the hens by evaluating the expression 25 + 30/6 and roosters similary
 puts 'hens', 25 + 30 / 6

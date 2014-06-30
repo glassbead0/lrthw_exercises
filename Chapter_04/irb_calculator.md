@@ -1,3 +1,4 @@
+#!/usr/bin/env ruby
 # using irb as a calculator with variables. 
 # chapter 4, extra credit 6
 
