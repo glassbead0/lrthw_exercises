@@ -11,7 +11,7 @@ txt = File.open(filename)
 puts "Here's your file: #{filename}"
 # the read method will open file and return the content of that file
 puts txt.read
-txt.close
+filename.close
 
 puts "I'll also ask you to type it again:"
 print prompt
@@ -22,6 +22,6 @@ txt_again = File.open(file_again)
 
 puts txt_again.read
 # what happens if I remove the .read?
-txt.close
+file_again.close
 
 # why do we need to close the file? what is that actually doing on our system?
