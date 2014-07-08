@@ -1,9 +1,9 @@
+```
 #!/usr/bin/env ruby
 # Experiments in irb
 ### free calculator!
 
 Aaron-Glasenapps-MacBook:Chapter_3 glassbead$ irb
-
 
 2.1.2 :001 > 123456789*987654321
  => 121932631112635269
@@ -33,3 +33,4 @@ Aaron-Glasenapps-MacBook:Chapter_3 glassbead$ irb
 
 
 This file was made with the help of [Github](https://help.github.com/articles/markdown-basics)
+```
